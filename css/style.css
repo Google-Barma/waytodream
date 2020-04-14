@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid tomato;
-}
+} */
 
 html {
   box-sizing: border-box;
@@ -26,18 +26,17 @@ img {
     rgb(78, 190, 254) 100%
   );
   font-size: 0;
-  margin-bottom: 102px;
 }
 
 .container {
   width: 1170px;
   margin: 0 auto;
 }
-/* .content {
+.content {
   width: 1230px;
   margin: 0 auto;
   margin-bottom: 108px;
-} */
+}
 
 .clearfix::after {
   display: table;
@@ -103,14 +102,7 @@ img {
   height: 641px;
   background-image: url(../img/world.png);
   background-repeat: no-repeat;
-  /* margin-top: 100px;
-  margin-bottom: 64px; */
-  position: absolute;
-  left: 966px;
-  top: 110px;
-  width: 641px;
-  height: 641px;
-  z-index: 11;
+  margin-top: 110px;
 }
 
 .list-header {
@@ -155,4 +147,64 @@ img {
   font-family: 'Ubuntu';
   color: rgb(32, 27, 45);
   line-height: 1.467;
+}
+
+.list-section {
+  padding-bottom: 122px;
+  padding-top: 102px;
+}
+.form-section {
+  padding-top: 102px;
+  background-color: #ecf3f8;
+  padding-bottom: 106px;
+}
+.form-title {
+  font-size: 30px;
+  font-family: 'Ubuntu';
+  color: #201b2d;
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 58px;
+}
+.input {
+  width: 344px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding-left: 24px;
+}
+
+.button-buttom {
+  width: 222px;
+  height: 58px;
+  background-color: #ffd429;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  color: rgb(46, 42, 27);
+  line-height: 1.667;
+  border: none;
+  text-align: center;
+}
+.footer-text {
+  font-size: 14px;
+  font-family: 'Open Sans';
+  color: rgb(255, 255, 255);
+  line-height: 1.786;
+  text-align: center;
+  margin: 0;
+}
+#test {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #164d7a;
+  padding: 62px 0;
 }
