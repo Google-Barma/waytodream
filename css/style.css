@@ -123,3 +123,36 @@ img {
   margin-top: 0;
   margin-bottom: 72px;
 }
+
+.list-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.items {
+  width: 300px;
+  text-align: center;
+}
+.list-img {
+  display: inline-block;
+  margin-bottom: 28px;
+  height: 70px;
+}
+.list-title {
+  font-size: 19px;
+  font-family: 'Ubuntu';
+  color: #201b2d;
+  font-weight: bold;
+  line-height: 1.316;
+  margin: 0;
+  margin-bottom: 17px;
+}
+.list-text {
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Ubuntu';
+  color: rgb(32, 27, 45);
+  line-height: 1.467;
+}
