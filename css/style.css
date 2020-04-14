@@ -20,11 +20,8 @@ img {
 }
 
 .header {
-  background: linear-gradient(
-    121deg,
-    rgb(55, 143, 217) 0%,
-    rgb(78, 190, 254) 100%
-  );
+  background-image: linear-gradient(-122deg, #368fd9 0%, #4ebefe 100%);
+
   font-size: 0;
 }
 
@@ -36,7 +33,6 @@ img {
 .content {
   width: 1230px;
   margin: 0 auto;
-  margin-bottom: 108px;
   padding-left: 30px;
 }
 
